@@ -1,0 +1,108 @@
+/* Fondo de la página con degradado azul a gris */
+.home-page {
+  min-height: 100vh;
+  background: linear-gradient(to right, #1e90ff, #A9A9A9); /* Azul → Gris */
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Imagen del logo (un poco más grande) */
+.home-logo {
+  max-width: 250px; /* Aumentado de 200px a 250px */
+  width: 100%;
+  height: auto;
+  margin-top: 15px;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Texto "Bienvenidos a Transporte Velásquez" resaltado */
+.home-page h2 {
+  color: #FFD700; /* Dorado brillante */
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); /* Sombra para que resalte más */
+  font-size: 2.5rem;
+}
+
+/* Sección de Noticias centrada */
+.news-section {
+  background: rgba(255, 255, 255, 0.2); /* Fondo blanco semitransparente */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Título de Noticias */
+.news-section h3 {
+  text-align: center;
+  color: #FFD700; /* Dorado */
+}
+
+/* Mensaje de la última ruta agregada */
+.latest-route {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #FFD700; /* Dorado */
+  margin-bottom: 10px;
+}
+
+/* Nueva ruta destacada */
+.new-route {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #FF6347; /* Rojo anaranjado */
+  margin-bottom: 15px;
+}
+
+/* Estilo del botón Leer más */
+.news-item button {
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.news-item button:hover {
+  background-color: #0073e6;
+}
+
+/* Botón "Ver Rutas y Horarios" en el centro */
+.routes-button {
+  display: block;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 12px 20px;
+  background-color: #FF4500;
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out;
+}
+
+.routes-button:hover {
+  background-color: #1f3838;
+}
+/* Nueva ruta destacada */
+.new-route {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #501944; /* Azul brillante */
+  margin-bottom: 15px;
+}
+/* Mensaje de nueva ruta disponible */
+.new-route-available {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #044266; /* Rojo anaranjado */
+  margin-bottom: 10px;
+}

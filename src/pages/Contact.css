@@ -1,0 +1,61 @@
+/* Fondo elegante con degradado azul oscuro */
+.contact-page {
+  min-height: 100vh;
+  background: linear-gradient(to right, #34495E, #2C3E50); /* Azul grisáceo → Azul oscuro */
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Contenedor del formulario */
+.contact-form {
+  background: rgba(255, 255, 255, 0.2); /* Fondo blanco semitransparente */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Estilos de los inputs */
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.8);
+  color: #333;
+}
+
+/* Botón de enviar */
+.contact-form button {
+  background-color: #FFD700; /* Dorado para destacar */
+  color: black;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out;
+}
+
+.contact-form button:hover {
+  background-color: #FFC107; /* Amarillo más oscuro */
+}
+
+/* Mensaje de éxito */
+.success-message {
+  color: #32CD32; /* Verde claro */
+  margin-top: 15px;
+  font-weight: bold;
+}

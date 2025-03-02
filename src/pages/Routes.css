@@ -1,0 +1,62 @@
+/* Página de rutas */
+.routes-page {
+  min-height: 100vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(30, 144, 255, 0.9));
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Encabezado */
+.routes-page h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #FFD700; /* Dorado para destacar */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Contenedor de la tabla */
+.routes-section {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo de la tabla */
+.routes-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Encabezados de la tabla */
+.routes-table th {
+  background-color: #FFD700; /* Dorado */
+  color: black;
+  padding: 12px;
+  font-size: 1.2rem;
+}
+
+/* Celdas de la tabla */
+.routes-table td {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Filas alternas para mejorar legibilidad */
+.routes-table tr:nth-child(even) td {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Efecto al pasar el mouse sobre las filas */
+.routes-table tr:hover td {
+  background-color: rgba(255, 255, 255, 0.4);
+  transition: background 0.3s;
+}
