@@ -1,9 +1,20 @@
 import { useNavigate } from "react-router-dom";
-
+import { apiClient } from "../shared/services/apiClient";
 function Login() {
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
   const navigate = useNavigate();
 
-  const handleLogin = () => {
+  const  handleLogin = async (e) => {
+    e.preventDetault();
+
+    try {
+      
+      apiClient.post()
+    } catch (error) {
+      console.error("Error en el login:", error);
+      alert("Usuario o contraseña incorrectos");
+  }
     navigate("/inicio");
   };
 
