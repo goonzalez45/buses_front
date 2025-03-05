@@ -8,9 +8,10 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "serve": "serve -s dist -l $PORT"
+    "start": "http-server dist -p $PORT"
   },
   "dependencies": {
+    "http-server": "^14.1.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.2.0",
